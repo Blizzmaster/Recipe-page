@@ -14,3 +14,14 @@
     src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
     font-weight: 400, 600, 700
 }
+
+@layer components
+{
+    tr {
+        @apply border-b border-slate-200;
+    }
+
+    td {
+        @apply py-4;
+    }
+}
